@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stripe.net" Version="45.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AngryBirds.Payments.Core\AngryBirds.Payments.Core.csproj" />
+    <ProjectReference Include="..\AngryBirds.Payments.Exceptions\AngryBirds.Payments.Exceptions.csproj" />
+    <ProjectReference Include="..\AngryBirds.Payments.Models\AngryBirds.Payments.Models.csproj" />
+  </ItemGroup>
+
+</Project>
